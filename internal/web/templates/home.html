@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Votaciones 🗳️</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>🗳️ Crear una votación</h1>
+    <p class="sub">Escribe tu pregunta y las opciones (una por línea).</p>
+
+    <form method="post" action="/create">
+      <label>Pregunta</label>
+      <input type="text" name="question" placeholder="¿Cuál es tu lenguaje favorito?" autofocus>
+
+      <label>Opciones (una por línea, mínimo 2)</label>
+      <textarea name="options" rows="6" placeholder="Go&#10;Python&#10;JavaScript"></textarea>
+
+      <button type="submit">Crear votación</button>
+    </form>
+  </main>
+</body>
+</html>
