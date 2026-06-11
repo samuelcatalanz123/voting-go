@@ -1,5 +1,9 @@
 # App de votaciones (Go)
 
+[![CI](https://github.com/samuelcatalanz123/voting-go/actions/workflows/ci.yml/badge.svg)](https://github.com/samuelcatalanz123/voting-go/actions/workflows/ci.yml)
+![Go](https://img.shields.io/badge/Go-1.26-00ADD8?logo=go&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 App web para crear encuestas (pregunta + opciones), votar y ver los resultados
 con **barras de porcentaje**. Hecha en **Go**. Compartes un enlace y todos votan.
 
